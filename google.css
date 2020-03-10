@@ -1,0 +1,125 @@
+/* Début logo */
+.image-center {
+  display: block;
+  clear: both;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+/* fin logo */
+
+/* Début barre de recherche */
+.barre {
+  text-align: center;
+  padding: 20px;
+}
+
+#barre-de-recherche {
+  width: 450px;
+  padding: 20px 10px;
+  border-radius: 25px;
+  line-height: 32px;
+}
+
+.barre #barre-de-recherche {
+  padding: 0 8px;
+}
+
+.boutons {
+  margin-bottom: 300px;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+  display: inline-block;
+  margin: auto;
+}
+.boutonscentre{
+  display: center;
+  margin: auto;
+  text-align: center;
+}
+/* fin barre de recherche */
+
+/* début navigation */
+#barre-de-nav {
+  float: right;
+}
+
+#barre-de-nav li {
+  display: inline-block;
+  padding: 8px;
+}
+
+#barre-de-nav #se-connecter {
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+  background: #4887ef;
+}
+
+.liens {
+  color: #404040;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li.liens a:hover {
+  text-decoration: underline;
+}
+
+#se-connecter:hover {
+  box-shadow: 1px 1px 5px #999;
+}
+
+#se-connecter {
+  color: #fff;
+}
+/* Fin navigation */
+
+/* début footer */
+
+footer {
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 0;
+  border-top: solid 2px #e4e4e4;
+  background: #f2f2f2;
+}
+
+footer ul li {
+  display: inline;
+  padding: 11px;
+  font-size: large;
+  color: #666;
+}
+
+footer ul {
+  float: left;
+  padding: 1px;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+.footer-droite {
+  float: right;
+}
+
+.pays {
+  margin-left: 0;
+  padding: 11px;
+  font-size: large;
+  color: #666;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+/*   Fin footer */
